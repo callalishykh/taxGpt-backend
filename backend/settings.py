@@ -27,7 +27,6 @@ SECRET_KEY = "django-insecure-b4bb@5s+q%ps8hcq9*e#05x%ysoqjp#*h)=w=b5$_$o@azys@#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -61,7 +60,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOW_CREDENTIALS = True
-ALLOWED_HOSTS = ["127.0.0.1", "localhost:3002", ".vercel.app"]
+ALLOWED_HOSTS = ["127.0.0.1", "taxgpt-backend.onrender.com","localhost:3002", ".vercel.app"]
 
 ROOT_URLCONF = "backend.urls"
 
